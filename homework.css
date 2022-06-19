@@ -1,0 +1,48 @@
+body
+{
+background-color: whitesmoke;
+font-family:Arial
+}
+h1
+{color:rgb(13, 15, 97);
+font-size:4em;
+}
+table
+{
+    padding: 1em;
+}
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+th,tr,td
+{
+    padding:1em;
+}
+th
+{
+    background-color: rgb(200, 140, 255);
+    text-align: center;
+}
+td
+{
+    color:#454545;
+    text-align: center;
+}
+tr:hover{
+    background-color: #888888;
+}
+a:hover{
+    color: rgb(0, 227, 235)
+}
+ul
+{
+    padding: 1em;
+    float: left;
+    list-style-type: square;
+
+}
+p
+{
+    color:rgb(15, 71, 36);
+    font-size:1em;
+}
+    
